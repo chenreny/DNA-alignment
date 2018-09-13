@@ -11,6 +11,19 @@
 #include <cstdlib>
 #include <iostream>
 
+void read(){
+    int c;
+    unordered_map<int, int> map;
+    
+    while(cin >> c){
+        ++map[c];
+    }
+    
+    for(auto i = map.begin(); i != map.end(); ++i){
+        cout <<"collisons" << i->first ;
+        cout <<"frequency" << i->second << endl;
+    }
+}
 
 void Solver::readFile(){
     refer = new string();
