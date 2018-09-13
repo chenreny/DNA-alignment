@@ -25,7 +25,8 @@ g++ -lz main.o helper.o murmur3.o -o main
 
 ```
 
-And repeat
+And then type:
+(make sure the InputFile is under the same directory)
 
 ```
 ./main <InputFileName > outPutFileName
